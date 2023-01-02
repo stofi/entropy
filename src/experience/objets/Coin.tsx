@@ -35,7 +35,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
               normalMap={normal}
               color={'#ccc'}
               normalMapType={THREE.TangentSpaceNormalMap}
-              normalScale={[-0.5, -0.5]}
+              normalScale={new THREE.Vector2(-0.5, -0.5)}
               roughness={0.1}
               metalness={1}
             />
