@@ -27,7 +27,7 @@ function App() {
 
   return (
     <KeyboardControls map={map}>
-      <div className='md:flex md:flex-col md:justify-center md:w-full md:h-full max-w-screen-xl mx-auto'>
+      <div className='md:flex md:flex-col md:justify-center md:w-full md:h-full max-w-screen-2xl mx-auto'>
         <div className='relative md:aspect-video '>
           <Experience enableDebug={false} />
 
