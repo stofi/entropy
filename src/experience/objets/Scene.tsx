@@ -13,7 +13,7 @@ export default function Scene() {
   return (
     <>
       <Environment preset='studio' background={false}></Environment>
-      <Coin position-x={0.7} scale={0.8} />
+      <Coin scale={0.8} />
     </>
   )
 }

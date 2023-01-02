@@ -13,10 +13,11 @@ function Dom() {
         </h1>
       </div>
       <div className='row-span-4 col-span-3 row-start-2 flex flex-col justify-center'>
-        <h2 className='text-5xl font-bold leading-tight mb-6 tracking-wide'>
-          Je mi jedno, kdo bude prezidentem.
+        <h2 className='text-4xl font-bold leading-tight mb-4 tracking-wide'>
+          Je mi jedno, kdo bude prezidentem...
         </h2>
-        <div className='font-normal leading-normal tracking-wide space-y-4'>
+        <p className='text-2xl mb-4'>Hodím si korunou!</p>
+        <div className='font-normal leading-normal tracking-wide space-y-4 text-neutral-300'>
           <p>
             V posledních letech jsme byli svědky mnoha změn a nejistoty. Zdá se,
             že svět se točí stále rychleji a nikdy nevíme, co přijde dál. Ale co
@@ -30,7 +31,7 @@ function Dom() {
           </p>
         </div>
       </div>
-      <div className='mt-6 col-start-3 row-start-6 col-end-5 flex'>
+      <div className='mt-8 col-span-3 md:col-start-3 row-start-6 md:col-end-5 flex'>
         <button className=' bg-neutral-100 text-neutral-800 font-bold uppercase px-6 py-2 text-2xl rounded-md mx-auto'>
           Jak na to?
         </button>

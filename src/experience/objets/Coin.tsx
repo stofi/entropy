@@ -22,6 +22,12 @@ export function Model(props: JSX.IntrinsicElements['group']) {
     if (groupRef.current && groupRef2.current) {
       groupRef.current.rotation.x -= 0.05 / slow
       groupRef2.current.rotation.y += 0.01 / slow
+
+      if (window.innerWidth > 768) {
+        groupRef2.current.position.x = 0.95
+      } else {
+        groupRef2.current.position.x = 0
+      }
     }
   })
 
