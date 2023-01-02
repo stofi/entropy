@@ -18,13 +18,10 @@ function Dom() {
         </h2>
         <div className='font-normal leading-normal tracking-wide space-y-4'>
           <p>
-            V posledních letech jsme byli svědky mnoha změn
-            <br />a nejistoty. Zdá se, že svět se točí stále rychleji a nikdy
-            nevíme, co přijde dál. Ale co kdybychom se namísto strachu a úzkosti
-            rozhodli přijmout náhodu s otevřenou náručí? Nechme náhodě volný
-            průběh a uvidíme,
-            <br />
-            co přinese.
+            V posledních letech jsme byli svědky mnoha změn a nejistoty. Zdá se,
+            že svět se točí stále rychleji a nikdy nevíme, co přijde dál. Ale co
+            kdybychom se namísto strachu a úzkosti rozhodli přijmout náhodu s
+            otevřenou náručí? Nechme náhodě volný průběh a uvidíme, co přinese.
           </p>
           <p className='text-xl'>
             Nežijete jenom pro budoucnost,
