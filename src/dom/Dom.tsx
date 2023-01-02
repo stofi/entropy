@@ -4,7 +4,7 @@ import HelloWorld from './components/HelloWorld'
 
 function Dom() {
   return (
-    <div className='grid grid-cols-6 auto-rows-auto gap-4 p-12 content-center w-full h-full'>
+    <div className='grid grid-cols-3 md:grid-cols-6 auto-rows-auto gap-4 p-12 content-center w-full h-full'>
       <div className='row-span-1 col-span-3'>
         <h1 className='text-sm uppercase'>
           Milion chvilek

@@ -27,11 +27,11 @@ function App() {
 
   return (
     <KeyboardControls map={map}>
-      <div className='flex flex-col justify-center w-full h-full'>
-        <div className='relative aspect-video'>
+      <div className='md:flex md:flex-col md:justify-center md:w-full md:h-full'>
+        <div className='relative md:aspect-video'>
           <Experience enableDebug={false} />
 
-          <div className='absolute inset-0'>
+          <div className='md:absolute inset-0'>
             <Dom />
           </div>
         </div>
