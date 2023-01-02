@@ -1,7 +1,9 @@
+import * as THREE from 'three'
 import { Suspense, useState } from 'react'
 
 import { PerformanceMonitor } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
+import { Bloom, EffectComposer } from '@react-three/postprocessing'
 import { Debug, Physics } from '@react-three/rapier'
 
 import { Leva } from 'leva'
@@ -18,18 +20,20 @@ export default function Experience(props: { enableDebug?: boolean }) {
         shadows={true}
         dpr={1}
         camera={{
-          position: [5, 5, 5],
+          position: [0, 0, 6],
+          fov: 15,
         }}
       >
-        <color args={['lightblue']} attach='background' />
         {props.enableDebug && (
           <>
-            <axesHelper args={[5]} />
             <Perf position='top-left' />
             <PerformanceMonitor />
           </>
         )}
         <Suspense>
+          <EffectComposer>
+            <Bloom />
+          </EffectComposer>
           <Physics>
             {props.enableDebug && <Debug />}
             <Scene />

@@ -27,8 +27,15 @@ function App() {
 
   return (
     <KeyboardControls map={map}>
-      <Experience enableDebug />
-      <Dom />
+      <div className='flex flex-col justify-center w-full h-full'>
+        <div className='relative aspect-video'>
+          <Experience enableDebug />
+
+          <div className='absolute inset-0'>
+            <Dom />
+          </div>
+        </div>
+      </div>
     </KeyboardControls>
   )
 }

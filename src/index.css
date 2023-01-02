@@ -1,3 +1,4 @@
 html, body, #root {
-  @apply fixed inset-0 w-screen h-screen overflow-hidden bg-black;
+  @apply fixed inset-0 w-screen h-screen overflow-hidden bg-neutral-900 text-neutral-100;
+  font-family: 'Palanquin Dark', sans-serif;
 }
